@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+patch -p0 < ./include-header.patch
+
+./configure --prefix=/usr
+make
+make DESTDIR="$1" install

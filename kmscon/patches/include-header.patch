@@ -1,0 +1,10 @@
+--- src/uterm_vt.c	2021-06-06 06:57:41.171216463 +0000
++++ src/uterm_vt.c	2021-06-06 06:56:01.234547935 +0000
+@@ -40,6 +40,7 @@
+ #include <sys/ioctl.h>
+ #include <sys/signalfd.h>
+ #include <sys/stat.h>
++#include <sys/sysmacros.h>
+ #include <termios.h>
+ #include <time.h>
+ #include <unistd.h>
