@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+:> nostrip
+
+cp -ra * $1
