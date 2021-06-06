@@ -1,2 +1,4 @@
-# kissfusion
-repo for kisslinux
+# KissFusion
+Ruining KissLinux one package at a time!
+
+By @electimon
